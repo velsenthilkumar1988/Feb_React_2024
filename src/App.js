@@ -8,7 +8,9 @@ import Homepage from "./Pages/Home/HomePage";
 import AboutPage from './Pages/About/AboutPage';
 import ServicePage from './Pages/Services/ServicePage';
 import ContactPage from './Pages/Contact/ContactPage';
-import ApiFunctionCall from './Pages/JavaScript/APIFunctionCall/ApiFunctionCall';
+import ClassBasedCom from './Pages/ReactBeginers/ClassBasedCom';
+import FunctionalBAsedCom from './Pages/ReactBeginers/FunctionalBasedCom';
+
 function App() {
   return (
       
@@ -20,7 +22,8 @@ function App() {
               <Route exact path='/about' Component={AboutPage}/>
               <Route exact path='/services' Component={ServicePage}/>
               <Route exact path='/contact' Component={ContactPage}/>
-              <Route exact path='/apifunctioncall' Component={ApiFunctionCall}/>
+              <Route exact path='/classbasedcom' Component={ClassBasedCom}/>
+              <Route exact path='/functionalbasedcom' Component={FunctionalBAsedCom}/>
           </Routes>  
       </Router>
       </>

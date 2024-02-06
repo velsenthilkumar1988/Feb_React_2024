@@ -13,10 +13,10 @@ const NavbarPage = () => {
             <Nav.Link href="/about">About Us</Nav.Link>
             <Nav.Link href="/services">Services</Nav.Link>
             
-            <NavDropdown title="JavaScript" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/apifunctioncall">API Function Call JS</NavDropdown.Item>
-              <NavDropdown.Item href="#">
-                Sangam Mukerji
+            <NavDropdown title="React Beginners" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/classbasedcom">Class Based Compoents</NavDropdown.Item>
+              <NavDropdown.Item href="/functionalbasedcom">
+                Functional Based Components
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
