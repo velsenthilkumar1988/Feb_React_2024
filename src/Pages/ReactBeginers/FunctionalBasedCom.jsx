@@ -1,8 +1,9 @@
-const ChildFunctionalComponent = ()=>{
+const ChildFunctionalComponent = (props)=>{
     return(
         <>
         Child Component in Function Component based 
         "test "{45+50}
+        
         </>
     )
 }
