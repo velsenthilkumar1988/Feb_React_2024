@@ -1,9 +1,10 @@
 import React from 'react'
+import Accordion from '../../Components/Accordion'
 
 const AboutPage = () => {
   return (
     <div>
-      about pages
+      <Accordion/>
     </div>
   )
 }
