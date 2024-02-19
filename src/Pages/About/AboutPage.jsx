@@ -2,7 +2,7 @@ import React from 'react'
 import Accordion from '../../Components/Accordion'
 import RandomColor from '../../Components/Random-Color'
 import StarRating from '../../Components/Star-Rating'
-import ImageSlider from '../../Components/Image-Slider'
+// import ImageSlider from '../../Components/Image-Slider'
 import LoadMoreButton from '../../Components/Load-More-Data'
 
 
