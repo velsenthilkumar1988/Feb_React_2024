@@ -5,6 +5,7 @@ import StarRating from '../../Components/Star-Rating'
 import LoadMoreButton from '../../Components/Load-More-Data'
 import TreeView from '../../Components/Tree-View'
 import sideMenu from '../../Components/Tree-View/data'
+import QRCodeGenerator from '../../Components/QRCodeGenerator'
 
 
 const AboutPage = () => {
@@ -16,6 +17,7 @@ const AboutPage = () => {
       <StarRating noOfStars={10}/>
       <LoadMoreButton/>
       <TreeView menus={sideMenu}/>
+      <QRCodeGenerator/>
     </div>
   )
 }
