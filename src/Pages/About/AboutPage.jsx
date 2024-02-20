@@ -7,19 +7,21 @@ import TreeView from '../../Components/Tree-View'
 import sideMenu from '../../Components/Tree-View/data'
 import QRCodeGenerator from '../../Components/QRCodeGenerator'
 import LightDarkTheme from '../../Components/LightDarkTheme'
+import ScrollIndicator from '../../Components/ScrollDown'
 
 
 const AboutPage = () => {
   return (
     <div>
       {/* {https://www.youtube.com/watch?v=l3A9OcUd_Us&t=5065s} */}
-      <Accordion/>
+      {/* <Accordion/>
       <RandomColor/>
       <StarRating noOfStars={10}/>
       <LoadMoreButton/>
       <TreeView menus={sideMenu}/>
       <QRCodeGenerator/>
-      <LightDarkTheme/>
+      <LightDarkTheme/> */}
+      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
     </div>
   )
 }
