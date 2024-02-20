@@ -1,5 +1,5 @@
 import MenuList from "./menu-list";
-
+import '../Tree-View/style.css';
 export default function TreeView({menus =[]}){
     return(
         <div className="tree-view-container">
