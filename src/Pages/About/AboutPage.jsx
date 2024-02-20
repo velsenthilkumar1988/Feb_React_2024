@@ -2,8 +2,9 @@ import React from 'react'
 import Accordion from '../../Components/Accordion'
 import RandomColor from '../../Components/Random-Color'
 import StarRating from '../../Components/Star-Rating'
-// import ImageSlider from '../../Components/Image-Slider'
 import LoadMoreButton from '../../Components/Load-More-Data'
+import TreeView from '../../Components/Tree-View'
+import sideMenu from '../../Components/Tree-View/data'
 
 
 const AboutPage = () => {
@@ -13,8 +14,8 @@ const AboutPage = () => {
       <Accordion/>
       <RandomColor/>
       <StarRating noOfStars={10}/>
-      {/* <ImageSlider url={'https://picsum.photos/v2/list'} page={'1'} limit={'10'}/> */}
       <LoadMoreButton/>
+      <TreeView menus={sideMenu}/>
     </div>
   )
 }
