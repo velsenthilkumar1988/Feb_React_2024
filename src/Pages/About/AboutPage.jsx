@@ -6,6 +6,7 @@ import LoadMoreButton from '../../Components/Load-More-Data'
 import TreeView from '../../Components/Tree-View'
 import sideMenu from '../../Components/Tree-View/data'
 import QRCodeGenerator from '../../Components/QRCodeGenerator'
+import LightDarkTheme from '../../Components/LightDarkTheme'
 
 
 const AboutPage = () => {
@@ -18,6 +19,7 @@ const AboutPage = () => {
       <LoadMoreButton/>
       <TreeView menus={sideMenu}/>
       <QRCodeGenerator/>
+      <LightDarkTheme/>
     </div>
   )
 }
