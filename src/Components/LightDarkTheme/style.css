@@ -10,6 +10,14 @@
     --button-bg: #fff;
     --button-text: #000;
 }
+.light-dark-mode .container-theme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
 .light-dark-mode{
     background-color: var(--background);
     height: 100vh;

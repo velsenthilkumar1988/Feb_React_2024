@@ -11,7 +11,7 @@ export default function LightDarkTheme(){
     console.log('====================================');
     return(
         <div className="light-dark-mode" data-theme={theme}>
-            <div className="container">
+            <div className="container-theme">
                 <p>Hello World!</p>
                 <button onClick={handleToggleClick}>Change Theme</button>
             </div>
