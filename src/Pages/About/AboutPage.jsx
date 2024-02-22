@@ -14,13 +14,13 @@ const AboutPage = () => {
   return (
     <div>
       {/* {https://www.youtube.com/watch?v=l3A9OcUd_Us&t=5065s} */}
-      {/* <Accordion/>
+      <Accordion/>
       <RandomColor/>
       <StarRating noOfStars={10}/>
       <LoadMoreButton/>
       <TreeView menus={sideMenu}/>
       <QRCodeGenerator/>
-      <LightDarkTheme/> */}
+      <LightDarkTheme/>
       <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
     </div>
   )
