@@ -8,6 +8,9 @@ import sideMenu from '../../Components/Tree-View/data'
 import QRCodeGenerator from '../../Components/QRCodeGenerator'
 import LightDarkTheme from '../../Components/LightDarkTheme'
 import ScrollIndicator from '../../Components/ScrollDown'
+import { Tabs } from 'react-bootstrap'
+import TabsComponent from '../../Components/Custom-Tabs'
+import Tabtest from '../../Components/Custom-Tabs/tabstest'
 
 
 const AboutPage = () => {
@@ -22,6 +25,7 @@ const AboutPage = () => {
       <QRCodeGenerator/>
       <LightDarkTheme/>
       <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
+      <Tabtest/>
     </div>
   )
 }
