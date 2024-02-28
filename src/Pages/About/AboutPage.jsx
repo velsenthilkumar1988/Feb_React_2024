@@ -12,13 +12,14 @@ import { Tabs } from 'react-bootstrap'
 import TabsComponent from '../../Components/Custom-Tabs'
 import Tabtest from '../../Components/Custom-Tabs/tabstest'
 import ModalTest from '../../Components/ModalPopup/ModalTest'
+import GitHubProfileFinder from '../../Components/GitHubProfileFinder'
 
 
 const AboutPage = () => {
   return (
     <div>
       {/* {https://www.youtube.com/watch?v=l3A9OcUd_Us&t=5065s} */}
-      {/* <Accordion/>
+      <Accordion/>
       <RandomColor/>
       <StarRating noOfStars={10}/>
       <LoadMoreButton/>
@@ -26,8 +27,9 @@ const AboutPage = () => {
       <QRCodeGenerator/>
       <LightDarkTheme/>
       <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
-      <Tabtest/> */}
+      <Tabtest/>
       <ModalTest/>
+      <GitHubProfileFinder/>
     </div>
   )
 }
