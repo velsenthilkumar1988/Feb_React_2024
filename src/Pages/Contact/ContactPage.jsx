@@ -1,9 +1,10 @@
 import React from 'react'
+import WeatherComponent from '../../Components/Weather'
 
 const ContactPage = () => {
   return (
     <div>
-      contact pages
+      <WeatherComponent/>
     </div>
   )
 }
